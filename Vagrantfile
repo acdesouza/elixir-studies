@@ -14,5 +14,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
 
   config.vm.provision :shell, :path => "provision/install-erlangvm.sh"
-  config.vm.provision :shell, :path => "provision/install-elixir.sh"
+  config.vm.provision :shell, :path => "provision/install-elixir.sh",  :args => "vagrant"
 end
