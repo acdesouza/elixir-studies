@@ -1,2 +1,4 @@
 # Ignore instance specific
 .vagrant/
+
+*.beam
