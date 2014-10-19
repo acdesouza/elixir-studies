@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 .vagrant/
+=======
+# Ignore instance specific
+.vagrant/
+
+*.beam
+*.pdf
+>>>>>>> 226ad4eff330e20c3482581b41857297518aa20c
