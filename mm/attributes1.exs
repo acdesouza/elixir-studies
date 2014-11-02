@@ -7,3 +7,5 @@ defmodule Example do
   def second, do: @attr
 
 end
+
+IO.puts "#{Example.first} #{Example.second}"
